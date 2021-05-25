@@ -44,7 +44,7 @@ export class UserDataService {
       this.http.get<data>(this.apiURL+ searchTerm + this.token).toPromise().then(
         (results) =>{
          this.user.push(results);
-          resolve(0);
+          resolve('');
            },
             (error)=>{
               reject();

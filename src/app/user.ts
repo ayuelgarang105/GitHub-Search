@@ -10,6 +10,8 @@ export class User {
     bio:any;
     login:any;
     created_at:Date;
+
     constructor(){}
+    
   
 }
