@@ -10,11 +10,11 @@ import { Observable } from 'rxjs';
 export class RepoService {
   repo:Repos[]=[];
   apiURL= 'https://api.github.com/users/';
-  token=`?access_token=${environment.apiKey}`
+  // token=`?access_token=${environment.apiKey}`
 
   constructor(public http:HttpClient) { }
 
   getRepo(searchTerm:string):Observable<any>{
-    return this.http.get(this.apiURL + searchTerm+ '/repos'+ this.token);
+    return this.http.get(this.apiURL + searchTerm+ '/repos');
   }
 }
