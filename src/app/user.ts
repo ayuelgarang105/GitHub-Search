@@ -11,7 +11,7 @@ export class User {
     login:any;
     created_at:Date;
 
-    constructor(){}, 
+    constructor(){}
     
   
 }
