@@ -1,7 +1,7 @@
 # Github-Search
 # Description: 
 
-* This is a website where users enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
+* This is a website where users enter a GitHub username into a form, submit, it and see names and descriptions of that person's public repositories
 
 ## Author:
 # Gabriel Ayuel
@@ -16,7 +16,7 @@ Topics
 Resources
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to [`http://localhost:4200/`]. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to [`http://localhost:4200/`].. The app will automatically reload if you change any of the source files.
 
 
 
@@ -27,7 +27,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 # MIT License
 
-* Copyright (c) 2021 Gabriel Ayuel
+* Copyright (c) 2021 Gabriel Ayuel.
 
 
 
