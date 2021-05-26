@@ -5,7 +5,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 
-
 @Injectable({
   providedIn: 'root'
 })
@@ -14,7 +13,7 @@ export class UserDataService {
   repo:Repos[]=[];
 
   apiURL= 'https://api.github.com/users/';
-  token=`?access_token=${environment.apiKey}`
+  
 
   constructor(private http:HttpClient) { }
 
@@ -41,7 +40,7 @@ export class UserDataService {
 
       this.user=[];
 
-      this.http.get<data>(this.apiURL+ searchTerm + this.token).toPromise().then(
+      this.http.get<data>(this.apiURL+ searchTerm ).toPromise().then(
         (results) =>{
          this.user.push(results);
           resolve('');
