@@ -1,7 +1,7 @@
 # Github-Search
 # Description: 
 
-* This is a website where users enter a GitHub username into a form, submit, it and see names and descriptions of that person's public repositories.
+* This is a website where users enter a GitHub username into a form, submit, it and see names and descriptions of that person's public repositories
 
 ## Author:
 # Gabriel Ayuel
